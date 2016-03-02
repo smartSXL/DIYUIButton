@@ -13,6 +13,7 @@
 		35E47DE61C86D5860099861F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E47DE41C86D5860099861F /* Main.storyboard */; };
 		35E47DE81C86D5860099861F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E47DE71C86D5860099861F /* Assets.xcassets */; };
 		35E47DEB1C86D5860099861F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E47DE91C86D5860099861F /* LaunchScreen.storyboard */; };
+		35E47DF41C86D6740099861F /* DIYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E47DF31C86D6740099861F /* DIYButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		35E47DE71C86D5860099861F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E47DEA1C86D5860099861F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35E47DEC1C86D5860099861F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E47DF21C86D6740099861F /* DIYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYButton.h; sourceTree = "<group>"; };
+		35E47DF31C86D6740099861F /* DIYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				35E47DE91C86D5860099861F /* LaunchScreen.storyboard */,
 				35E47DEC1C86D5860099861F /* Info.plist */,
 				35E47DDB1C86D5860099861F /* Supporting Files */,
+				35E47DF21C86D6740099861F /* DIYButton.h */,
+				35E47DF31C86D6740099861F /* DIYButton.m */,
 			);
 			path = DIYUIButton;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E47DF41C86D6740099861F /* DIYButton.m in Sources */,
 				35E47DE31C86D5860099861F /* ViewController.m in Sources */,
 				35E47DE01C86D5860099861F /* AppDelegate.m in Sources */,
 				35E47DDD1C86D5860099861F /* main.m in Sources */,
@@ -303,6 +309,7 @@
 				35E47DF11C86D5860099861F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
